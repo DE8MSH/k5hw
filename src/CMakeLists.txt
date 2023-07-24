@@ -1,1 +1,2 @@
+add_subdirectory(orginal_fw)
 add_subdirectory(spectrum_fagci)
