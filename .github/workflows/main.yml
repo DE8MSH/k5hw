@@ -164,4 +164,3 @@ jobs:
         asset_path: ${{github.workspace}}/build/src/messenger/messenger_encoded.bin
         asset_name: ${{ format('uv_k5_26_cold_messenger_encoded_v{0}.bin', github.run_number) }}
         asset_content_type: application/octet-stream
-Update spectrum.hpp · DE8MSH/UV_K5_playground@8471e51 
