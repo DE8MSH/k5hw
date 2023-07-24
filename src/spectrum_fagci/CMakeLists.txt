@@ -69,7 +69,7 @@ add_custom_command(TARGET ${NAME}
 )
 
 add_custom_target(${NAME}_flash
-	COMMAND openocd -f interface/cmsis-dap.cfg -f ${PROJECT_SOURCE_DIR}/openocd_scripts/dp32g030.cfg -c "write_image ${PROJECT_SOURCE_DIR}/build/src/rssi_printer/rssi_printer.bin 0x1000" -c "halt" -c "shutdown"
+	COMMAND openocd -f interface/cmsis-dap.cfg -f ${PROJECT_SOURCE_DIR}/openocd_scripts/dp32g030.cfg -c "write_image ${PROJECT_SOURCE_DIR}/build/src/spectrum_fagi/spectrum_fagi.bin 0x1000" -c "halt" -c "shutdown"
 	DEPENDS ${NAME}
 )
 
